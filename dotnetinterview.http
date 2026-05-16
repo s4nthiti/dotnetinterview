@@ -1,6 +1,22 @@
 @dotnetinterview_HostAddress = http://localhost:5025
 
-GET {{dotnetinterview_HostAddress}}/weatherforecast/
+GET {{dotnetinterview_HostAddress}}/
 Accept: application/json
+
+###
+
+POST {{dotnetinterview_HostAddress}}/api/users
+Content-Type: application/json
+
+{
+  "firstName": "Somchai",
+  "lastName": "Jaidee",
+  "email": "somchai@example.com",
+  "phone": "0812345678",
+  "profileBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgAAIAAAUAAen63NgAAAAASUVORK5CYII=",
+  "birthDay": "15/05/1995",
+  "occupation": "Software Engineer",
+  "gender": "Male"
+}
 
 ###

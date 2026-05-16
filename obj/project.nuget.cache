@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H2sz3/9xLGA=",
+  "dgSpecHash": "NGEK7rp3AWM=",
   "success": true,
   "projectFilePath": "G:\\Interview\\dotnetinterview\\dotnetinterview.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\santh\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.8\\microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512",
-    "C:\\Users\\santh\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
